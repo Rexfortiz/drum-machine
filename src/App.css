@@ -1,0 +1,33 @@
+.container{
+    text-align: center;
+    margin: 50px;
+}
+
+.whole-drum{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin: 50px auto;
+    width: min-content;
+}
+.drum-pad{
+    color:aliceblue;
+    width: 80px;
+    height: 80px;
+    background-color: rgb(54, 54, 54);
+    padding: 0;
+    box-shadow: 4px 4px 12px rgb(24, 24, 24);
+    transition: all 0.2s ease-in-out;
+}
+
+.drum-pad:active{
+    transform: scale(0.9)
+}
+#display{
+    width: 120px;
+    height: 1.7em;
+    margin: auto;
+    background-color: rgb(80, 80, 80);
+    border-radius: 10px;
+}
